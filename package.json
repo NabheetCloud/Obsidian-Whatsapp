@@ -1,0 +1,29 @@
+{
+	"name": "obsidian-whatsapp-local-sync",
+	"version": "1.0.0",
+	"description": "Obsidian plugin that mirrors your local WhatsApp Desktop database into your vault as transcript notes.",
+	"main": "main.js",
+	"scripts": {
+		"dev": "node esbuild.config.mjs",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+		"typecheck": "tsc -noEmit -skipLibCheck",
+		"install:vault": "node scripts/install.mjs"
+	},
+	"keywords": [
+		"obsidian",
+		"whatsapp",
+		"sqlite"
+	],
+	"author": "Nabheet Madan",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^20.11.0",
+		"@types/sql.js": "^1.4.9",
+		"esbuild": "^0.21.5",
+		"obsidian": "latest",
+		"typescript": "^5.4.5"
+	},
+	"dependencies": {
+		"sql.js": "^1.10.3"
+	}
+}

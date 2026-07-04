@@ -1,0 +1,11 @@
+node_modules/
+main.js.map
+data.json
+.DS_Store
+*.log
+
+# Never commit user data: WhatsApp DB copies or synced transcripts
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+11-Whatsapp/

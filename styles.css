@@ -1,0 +1,6 @@
+/* WhatsApp Local Sync — minimal styles. The plugin renders through the
+   standard Settings API, so there is little custom UI to style. */
+
+.whatsapp-sync-status {
+	font-variant-numeric: tabular-nums;
+}
