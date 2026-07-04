@@ -1,7 +1,7 @@
 {
 	"id": "whatsapp-local-sync",
 	"name": "WhatsApp Local Sync",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"minAppVersion": "1.7.2",
 	"description": "Read your local WhatsApp Desktop message database and mirror chats into your vault as one transcript note per conversation. Read-only, incremental, fully local — no network, no cloud, no API keys.",
 	"author": "Nabheet Madan",
